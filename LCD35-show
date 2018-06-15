@@ -12,7 +12,7 @@ sudo cp ./usr/cmdline.txt /boot/
 fi
 sudo cp ./usr/inittab /etc/
 sudo cp ./boot/config-35.txt /boot/config.txt
-nodeplatform=`uname -n`
+nodeplatform="raspberrypi"
 kernel=`uname -r`
 version=`uname -v`
 if test "$nodeplatform" = "raspberrypi";then
